@@ -21,9 +21,9 @@ def step_impl(context):
     context.sign_up_object.click_continue_button()
 
 
-@when(u'sign_up: I send first name "Adela"')
+@when(u'sign_up: I send first name "Alexandru"')
 def step_impl(context):
-    context.sign_up_object.send_first_name('Adela')
+    context.sign_up_object.send_first_name('Alexandru')
 
 
 @when(u'sign_up: I click continue first name button')
@@ -31,9 +31,9 @@ def step_impl(context):
     context.sign_up_object.click_continue_first_name_button()
 
 
-@when(u'sign_up: I send last name "Alexa"')
+@when(u'sign_up: I send last name "Banciu"')
 def step_impl(context):
-    context.sign_up_object.send_last_name('Alexa')
+    context.sign_up_object.send_last_name('Banciu')
 
 
 @when(u'sign_up: I click continue last name button')

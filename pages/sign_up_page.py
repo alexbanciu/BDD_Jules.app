@@ -2,6 +2,7 @@ from pages.base_page import Base_page
 from selenium.webdriver.common.by import By
 from time import sleep
 
+
 class Sign_up_page(Base_page):
     SIGN_UP = (By.XPATH, "//*[@id='root']/div/div[2]/form/div/div[4]/a")
     PERSONAL_BUTTON = (By.XPATH, "//input[@value='personal']")
